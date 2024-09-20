@@ -50,6 +50,9 @@ group :development, :test do
 end
 
 group :development do
+  # Add annotations to your Rails models and route files [https://github.com/drwl/annotaterb]
+  gem "annotaterb"
+
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
 
